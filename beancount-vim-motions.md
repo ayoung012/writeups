@@ -261,7 +261,7 @@ Vim has some buffer positioning commands that help a bit, which I've also been u
 	- `zz` such that the cursor is in the middle of the buffer
 	- `zb` such that the cursor is at the bottom of the buffer
 
-Lets start by lining up the cursors to our next match and position the buffers so they are both at the same eye level at the top of the file. I've added some blank lines to the start of `apricot-jam.bean` to allow the `zz` command to center the buffer properly.
+Lets start by lining up the cursors to our next match and position the cursor so they are both at the same eye level in the middle of the buffer. I've added some blank lines to the start of `apricot-jam.bean` to allow the `zz` command to center the buffer properly.
 
 - `2}j` skip the next transaction (maybe that was for fig jam?)
 - `zz` move the buffer view such that the cursor is in the middle of the buffer
