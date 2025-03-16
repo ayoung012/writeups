@@ -122,7 +122,7 @@ For some fictional accounts I dreamt up for my expenses related to my jam expens
 
 This is not ideal for beancount, as it is looking to have individual transactions contain postings representing both sides of the transaction. If you were to run any of these through `bean-check`, you would get a lot of:
 ```
-money-for-jam.bean:7: Transaction does not balance: (-20.30 AUD)```
+money-for-jam.bean:7: Transaction does not balance: (-20.30 AUD)
 money-for-jam.bean:10: Transaction does not balance: (-21.30 AUD)
 ...
 ```
