@@ -29,7 +29,15 @@
 - For a brief period of time I had 4 different accounts with this institution, and I would regularly transfer amounts between them
 - I would diligently labeled these transactions, however as life caught up with me, adding a description got less and less frequent
 - This resulted in long sequences of internal transfer entries that looked like:
-	- examples
+```
+"Date","Description","Debit","Credit"
+"01 Jun 2022","Transfer","$26.00",""
+"03 Jun 2022","Transfer","$21.50",""
+"15 Jun 2022","Transfer","$200.00",""
+"15 Jun 2022","Transfer","","$500.00"
+"23 Jun 2022","Transfer","$23.00",""
+"24 Jun 2022","Transfer","$25.50",""
+```
 - From a beancount perspective, where each transaction must be zero sum, this is a nightmare, because if I am looking at an export for a single account, I have no idea which transfer went where
 - I could solve this in a few different ways:
 	- ignore all internal transfers, treat that institution as a single account
