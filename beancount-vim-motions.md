@@ -141,15 +141,18 @@ So, wielding vim, how do we balance these?
 
 We'll start with a basic manual approach to get warmed up, and gradually reduce the number key presses required for each transaction as we go.
 
-First, open both files with vim and get them side by side
-   `$ vim apricot-jam.bean money-for-jam.bean`
-   We'll enable some line number verbosity so we can see where the cursor is on both buffers
-   `:set number`
-   `:set relativenumber`
-   `:set nowrap` (optional, but I prefer transactions with long lines not screwing with the line spacing)
-   Get them side by side with a window split
-   `:vsplit` (split the window vertically)
-   `:bn` (next buffer/file on the new split)
+- First, open both files with vim and get them side by side
+```
+$ vim apricot-jam.bean money-for-jam.bean
+```
+
+- We'll enable some line number verbosity so we can see where the cursor is on both buffers
+	- `:set number`
+	- `:set relativenumber`
+	- `:set nowrap` (optional, but I prefer transactions with long lines not screwing with the line spacing)
+- Get them side by side with a window split
+	-  `:vsplit` (split the window vertically)
+	- `:bn` (next buffer/file on the new split)
 
 We should have a vim window that looks like this:
 
