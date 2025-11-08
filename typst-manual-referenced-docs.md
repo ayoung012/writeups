@@ -76,3 +76,7 @@ The [typlite](https://github.com/Myriad-Dreamin/tinymist/tree/main/crates/typlit
 $ typelite ref-table.typ
 $ typelite ref-refs.typ
 ```
+
+Solution based on this forum post:
+
+https://forum.typst.app/t/how-do-i-include-custom-references-to-items-in-a-table/4409
